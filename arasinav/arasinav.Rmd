@@ -45,7 +45,9 @@ Bu çalışma ile ulaşılmaya çalışılan hedef, mutluluğun gelir ile poziti
 Çalışmada kullanılan veri çeşitli kaynaklardan toplanmıştır. Mutluluk endeksini elde etmek için [World Happiness Report](https://worldhappiness.report), dini verileri elde etmek için [ARDA](https://www.thearda.com), özgürlük hakkında veriler elde etmek için [Freedom House](https://freedomhouse.org), hukuka bağlılık hakkında veriler elde etmek için [World Justice Project](https://worldjusticeproject.org) ve kalan verileri elde etmek için de (toplam nüfus, gini endeksi, insan sermayesi endeksi, yıllık kişi başı milli gelir, reel gayrisafi yurtiçi hasıla, işsizlik oranı) [World Bank](https://data.worldbank.org) kullanılmıştır.
 
 ## Çalışmanın Amacı
-Bu bölümde yaptığınız çalışmanın amacından ve öneminden birkaç paragraf ile bahsediniz.
+Çalışma, genel anlamda insanları anlamak ve toplumdaki mutluluğu maksimize etmek isteyen bir hükümetin yapması gerekenlere ışık tutması açısından önem arz etmektedir. Mevcut politikaların toplum tarafından nasıl karşılandığı, büyüme yanlısı politikaların insanları gerçekten memnun edip etmediği konuları tartışılmaktadır.
+
+Çalışmada, insanların öncelikleri anlaşılmaya çalışılmaktadır. Mevcut politikaları sorgulamak ile beraber -varsa- daha iyi ve yeni politikalar önermek amaçlanmaktadır.
 
 ## Literatür 
 Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az dört** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
