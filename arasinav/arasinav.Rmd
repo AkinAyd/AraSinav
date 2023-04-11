@@ -1,0 +1,59 @@
+---
+title: "Çalışmanızın Başlığı"
+author: 
+  - Akın Aydın[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 21080197, [Github Repo](https://github.com/AkinAyd/AraSinav)
+
+# Giriş
+Mutluluk, insanların doğumdan ölüme kadar ençoklamaya (maksimize etmeye) çalıştığı temel unsurlardan biridir. Bu bağlamda mutluluk, birçok sosyal bilimcinin üzerinde çalıştığı konulardan biri olmuştur. Mutluluğun gelir, büyüme gibi iktisadi kavramlar ile açıklanmaya çalışılması, 1974 yılında Richard Easterlin tarafından yazılan "Does Economic Growth Improve the Human Lot" adlı makale ile başlamıştır. Literatüre farklı kavramlar ve analiz çeşitleri de zaman içinde eklenmiştir.
+
+Bu çalışma ile ulaşılmaya çalışılan hedef, mutluluğun gelir ile pozitif bir ilişki içerisinde olup olmadığı ve -varsa- mutluluğu açıklayan alternatif değişkenlerin neler olabileceği gibi sorulara anlamlı cevaplar verebilmektir.
+
+Çalışma seçilmiş ülkelerin 2018 yılından elde edilmiş ulusal verileri ile yürütülmektedir. Çalışmada gelir dağılımı (Gini endeksi), yıllık kişi başı milli gelir, özgürlük mertebesi, hukuka bağlılık, ülkede baskın olan dini inanç, mutluluk, toplam nüfus, eğitim seviyesi, insan sermayesi endeksi, reel gayrisafi yurtiçi hasıla ve işsizlik oranı değişkenleri kullanılmıştır. Mutluluk bağımlı değişken olmakla beraber kalan değişkenler bağımsız değişken olarak değerlendirilmiştir. Ülkede baskın olan dini inanç ve özgürlük mertebesi kategorik değişkenler iken kalan değişkenler sayısal değişkenlerdir. Sayısal değişkenler arasında regresyon analizi ve kategorik değişkenler arasında korelasyon analizi yapılması öngörülmektedir. Gözlem olarak düşük gelirli, düşük-orta gelirli, yüksek-orta gelirli ve yüksek gelirli ülkeler arasından 50 adet ülke seçilmiştir.
+
+## Çalışmada Kullanılan Veri
+Çalışmada kullanılan veri çeşitli kaynaklardan toplanmıştır. Mutluluk endeksini elde etmek için [World Happiness Report](https://worldhappiness.report), dini verileri elde etmek için [ARDA](https://www.thearda.com), özgürlük hakkında veriler elde etmek için [Freedom House](https://freedomhouse.org), hukuka bağlılık hakkında veriler elde etmek için [World Justice Project](https://worldjusticeproject.org) ve kalan verileri elde etmek için de (toplam nüfus, gini endeksi, insan sermayesi endeksi, yıllık kişi başı milli gelir, reel gayrisafi yurtiçi hasıla, işsizlik oranı) [World Bank](https://data.worldbank.org) kullanılmıştır.
+
+## Çalışmanın Amacı
+Bu bölümde yaptığınız çalışmanın amacından ve öneminden birkaç paragraf ile bahsediniz.
+
+## Literatür 
+Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az dört** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
+
+
+**_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
